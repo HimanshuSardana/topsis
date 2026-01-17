@@ -28,16 +28,14 @@ topsis <InputDataFile> <Weights> <Impacts> <ResultFileName>
 ### Arguments
 
 1. **InputDataFile**: Path to the `.csv` or `.xlsx` file.
-
-- The file must contain **3 or more columns**.
-- **First column**: Object/Model Name (e.g., M1, M2, M3). This column is not used in calculations but is preserved in the output.
-- **Remaining columns**: Numeric values representing the criteria for each object.
+   - The file must contain **3 or more columns**.
+   - **First column**: Object/Model Name (e.g., M1, M2, M3). This column is not used in calculations but is preserved in the output.
+   - **Remaining columns**: Numeric values representing the criteria for each object.
 
 2. **Weights**: Comma-separated numbers indicating the importance of each criterion (e.g., `"1,1,1,1"`).
 3. **Impacts**: Comma-separated signs (`+` or `-`) indicating the desired direction of the criterion.
-
-- `+`: Higher value is better (Profit).
-- `-`: Lower value is better (Cost).
+   - `+`: Higher value is better (Profit).
+   - `-`: Lower value is better (Cost).
 
 4. **ResultFileName**: Name of the output CSV file where results will be saved.
 
