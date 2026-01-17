@@ -1,7 +1,7 @@
 [project]
-name = "topsis"
+name = "topsis-Himanshu-102303244"
 version = "0.1.0"
-description = "Add your description here"
+description = "A Python package for Topsis method implementation"
 readme = "README.md"
 authors = [
     { name = "Himanshu Sardana", email = "himanshusardana2005@gmail.com" }
