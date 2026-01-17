@@ -2,6 +2,11 @@
 
 A Python package to implement the **Technique for Order of Preference by Similarity to Ideal Solution (TOPSIS)**. This command-line tool takes a dataset of alternatives and criteria, applies weights and impacts, and calculates a ranking score for each alternative.
 
+## Web-service Demo
+
+[Live Demo](https://topsis.himanshu.co)
+![](assets/demo.png)
+
 ## Installation
 
 You can install this package via `pip`:

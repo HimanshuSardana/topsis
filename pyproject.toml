@@ -1,6 +1,6 @@
 [project]
 name = "topsis_himanshu_102303244"
-version = "0.1.0"
+version = "0.1.1"
 description = "A Python package for Topsis method implementation"
 readme = "README.md"
 authors = [
