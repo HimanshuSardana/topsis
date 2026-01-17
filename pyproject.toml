@@ -1,5 +1,5 @@
 [project]
-name = "topsis-Himanshu-102303244"
+name = "topsis_himanshu_102303244"
 version = "0.1.0"
 description = "A Python package for Topsis method implementation"
 readme = "README.md"
@@ -19,3 +19,6 @@ topsis = "topsis:main"
 [build-system]
 requires = ["uv_build>=0.9.5,<0.10.0"]
 build-backend = "uv_build"
+
+[tool.setuptools.packages.find]
+where = ["src"]
